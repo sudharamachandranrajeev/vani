@@ -50,7 +50,7 @@ account, so nothing depends on a Vani company.
 - 🤖 **AI help** (optional) – captions and hashtags, suggested replies, mood and priority tags,
   translation both ways, and a short summary of your week every Monday.
 - 🔔 **Alerts** – describe what you want in plain words ("blue studio pottery under £50") and Vani
-  drafts a watch over eBay, DoneDeal, Instagram, Bluesky and YouTube. Matches arrive on your phone.
+  drafts a watch over marketplaces and social platforms. Matches arrive on your phone.
 - 🛡️ **Moderation** – hide or delete comments where the platform allows it.
 - 👥 **Profiles** – keep your own accounts, a business and a client apart, each with its own posts,
   inbox and alerts.
@@ -90,7 +90,7 @@ The standalone Vani files are on the [Vani releases page](https://github.com/sud
 
 | Your device | File to download | Works on |
 | --- | --- | --- |
-| 🐧 Linux computer | `Vani-<version>-linux-x64.tar.gz` | Ubuntu 24.04, Fedora, Arch and similar (Intel/AMD 64-bit) |
+| 🐧 Linux computer | `Vani-<version>-linux-x64.tar.gz` | Ubuntu 24.04, Fedora, Arch and similar (64-bit x86) |
 | 🪟 Windows computer | `Vani-<version>-windows-x64-setup.exe` | Windows 10 and 11 |
 | 🤖 Android phone | `Vani-<version>-android.apk` | Android 7 and newer |
 
@@ -242,10 +242,7 @@ scripts/make-icons.sh                                         # icons from brand
 - [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter) for platform brand icons
 - [Inter](https://rsms.me/inter/) and [Plus Jakarta Sans](https://github.com/tokotype/PlusJakartaSans)
   fonts (SIL Open Font License)
-- [Cloudflare Workers](https://workers.cloudflare.com) (D1, R2) for the hub, and [ntfy](https://ntfy.sh)
-  for phone alerts
-- [Claude](https://www.anthropic.com/claude) by Anthropic, and other AI services you choose, for the
-  AI features
+- [ntfy](https://ntfy.sh) for phone alerts
 
 </details>
 
