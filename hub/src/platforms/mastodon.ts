@@ -86,7 +86,7 @@ async function mastodonApp(ctx: Ctx, origin: string): Promise<MastodonApp> {
     method: "POST",
     label: "Mastodon",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ client_name: "Vani", redirect_uris: mastodonRedirect(ctx.env.PUBLIC_URL), scopes: scope, website: "https://github.com/sudharamachandranrajeev/vani" }),
+    body: JSON.stringify({ client_name: "Vani", redirect_uris: mastodonRedirect(ctx.env.PUBLIC_URL), scopes: scope, website: "https://github.com/sudharamachandranrajeev/vani-social-media-manager" }),
   });
   if (!app?.client_id || !app?.client_secret) throw new InputError("That server did not register Vani; is it a Mastodon server?", [], 502);
   const out = { clientId: String(app.client_id), clientSecret: String(app.client_secret) };

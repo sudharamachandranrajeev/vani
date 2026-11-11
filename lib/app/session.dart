@@ -8,7 +8,7 @@ const vaniIdentity = AppIdentity(
   id: 'vani',
   name: 'Vani',
   androidPackage: 'dev.brahma.vani',
-  releases: 'sudharamachandranrajeev/vani',
+  releases: 'sudharamachandranrajeev/vani-social-media-manager',
 );
 
 /// Everything a running app needs: keys, the encrypted database and the

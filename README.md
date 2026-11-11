@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/sudharamachandranrajeev/vani"><img src="branding/vani-512.png" alt="Vani" width="140"></a>
+  <a href="https://github.com/sudharamachandranrajeev/vani-social-media-manager"><img src="branding/vani-512.png" alt="Vani" width="140"></a>
   <br>
   Vani
   <br>
@@ -9,10 +9,10 @@
 <h4 align="center">Post, schedule and answer across your social media accounts from one app, with alerts for what you are looking for.</h4>
 
 <p align="center">
-  <a href="https://github.com/sudharamachandranrajeev/vani/releases"><img src="https://img.shields.io/github/v/release/sudharamachandranrajeev/vani?include_prereleases&color=e5262b&label=download" alt="Latest release"></a>
+  <a href="https://github.com/sudharamachandranrajeev/vani-social-media-manager/releases"><img src="https://img.shields.io/github/v/release/sudharamachandranrajeev/vani-social-media-manager?include_prereleases&color=e5262b&label=download" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/works%20on-Linux%20%7C%20Windows%20%7C%20Android-555" alt="Works on Linux, Windows and Android">
   <img src="https://img.shields.io/badge/status-early%20test-f59e0b" alt="Status: early test">
-  <a href="https://github.com/sudharamachandranrajeev/brahma"><img src="https://img.shields.io/badge/part%20of-Brahma-8a5cf6" alt="Part of Brahma"></a>
+  <a href="https://github.com/sudharamachandranrajeev/brahma-life-suite"><img src="https://img.shields.io/badge/part%20of-Brahma-8a5cf6" alt="Part of Brahma"></a>
 </p>
 
 <p align="center">
@@ -76,17 +76,17 @@ account, so nothing depends on a Vani company.
 ## 🚀 Get started
 
 > [!NOTE]
-> **Use Vani inside [Brahma](https://github.com/sudharamachandranrajeev/brahma/releases) for now.**
+> **Use Vani inside [Brahma](https://github.com/sudharamachandranrajeev/brahma-life-suite/releases) for now.**
 > The standalone Vani 0.2.0 download expects an older hub that has since moved, so it cannot be
 > set up from scratch today. Brahma 0.3.1 already has the guided hub setup below. The next Vani
 > release brings it to the standalone app.
 
 ### Step 1 – Download
 
-Download **Brahma** from its [releases page](https://github.com/sudharamachandranrajeev/brahma/releases)
+Download **Brahma** from its [releases page](https://github.com/sudharamachandranrajeev/brahma-life-suite/releases)
 and install it (its page has the steps). Vani is the red card on its home screen.
 
-The standalone Vani files are on the [Vani releases page](https://github.com/sudharamachandranrajeev/vani/releases):
+The standalone Vani files are on the [Vani releases page](https://github.com/sudharamachandranrajeev/vani-social-media-manager/releases):
 
 | Your device | File to download | Works on |
 | --- | --- | --- |
@@ -212,7 +212,7 @@ You need [Git](https://git-scm.com), [Flutter](https://flutter.dev) 3.47 and, fo
 Node.js 24 or newer.
 
 ```bash
-git clone https://github.com/sudharamachandranrajeev/vani
+git clone https://github.com/sudharamachandranrajeev/vani-social-media-manager
 cd vani
 flutter pub get
 flutter run -d linux        # or windows, or an Android device
@@ -252,13 +252,13 @@ Vani is one app in the **Brahma** family. They share one sign-in and one sync se
 
 | App | What it does |
 | --- | --- |
-| [brahma](https://github.com/sudharamachandranrajeev/brahma) | The shared core and the all-in-one app |
-| [artha](https://github.com/sudharamachandranrajeev/artha) | Money: accounts, spending, bills and investments |
-| [graha-anveshana](https://github.com/sudharamachandranrajeev/graha-anveshana) | Find a home to rent or buy |
-| [vahana-anveshana](https://github.com/sudharamachandranrajeev/vahana-anveshana) | Find a car |
-| [udyoga](https://github.com/sudharamachandranrajeev/udyoga) | Career and job hunting |
-| [vidya](https://github.com/sudharamachandranrajeev/vidya) | Learning, flashcards and focus |
-| [bhojana](https://github.com/sudharamachandranrajeev/bhojana) | Shopping lists priced across UK shops |
+| [brahma](https://github.com/sudharamachandranrajeev/brahma-life-suite) | The shared core and the all-in-one app |
+| [artha](https://github.com/sudharamachandranrajeev/artha-personal-finance) | Money: accounts, spending, bills and investments |
+| [graha-anveshana](https://github.com/sudharamachandranrajeev/graha-anveshana-property-search) | Find a home to rent or buy |
+| [vahana-anveshana](https://github.com/sudharamachandranrajeev/vahana-anveshana-car-manager) | Find a car |
+| [udyoga](https://github.com/sudharamachandranrajeev/udyoga-career-manager) | Career and job hunting |
+| [vidya](https://github.com/sudharamachandranrajeev/vidya-learning-manager) | Learning, flashcards and focus |
+| [bhojana](https://github.com/sudharamachandranrajeev/bhojana-grocery-shopping) | Shopping lists priced across UK shops |
 
 ## License
 
